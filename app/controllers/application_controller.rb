@@ -8,4 +8,7 @@ class ApplicationController < ActionController::Base
     def goodbye
     render html: "ハプニングバー"
   end
+    def thanks
+    render html: "ありがとうございました"
+  end
 end
